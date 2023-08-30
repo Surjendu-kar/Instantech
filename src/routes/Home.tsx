@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CustomeCard from "../components/CustomeCard";
-import { Box, Grid, Typography, TextField, Button } from "@mui/material";
+import { Box, Grid, Typography, TextField } from "@mui/material";
 
 const API = `https://hn.algolia.com/api/v1/search_by_date?tags=story&page`;
 
